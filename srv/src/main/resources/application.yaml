@@ -18,6 +18,8 @@ cds:
         - "10401010"
     - name: user
       password: user
+    - name: Zoe
+      password: Zoe
 server.servlet.encoding:
   charset: UTF-8
   force: true

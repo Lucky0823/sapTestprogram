@@ -80,11 +80,11 @@ annotate AdminService.Orders with @(
         LineItem                    : [
             {
                 Value : createdBy,
-                Label : '{i18n>Customer}'
+                Label : 'Zoe created'
             },
             {
                 Value : total,
-                Label : '{i18n>Total}'
+                Label : 'Total Amount'
             },
             {
                 Value : createdAt,

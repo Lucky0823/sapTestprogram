@@ -35,13 +35,13 @@ public class UiIndexContentProviderFactory implements IndexContentProviderFactor
 
 		@Override
 		public String getSectionTitle() {
-			return "UI endpoints";
+			return "Zoe UI endpoints";
 		}
 
 		@Override
 		public void writeContent(PrintWriter writer, String contextPath) {
 			writer.print(ENDPOINT_START);
-			writer.printf(ENDPOINT, contextPath + "/fiori.html", "Fiori UI");
+			writer.printf(ENDPOINT, contextPath + "/fiori.html", "Zoe Fiori UI");
 			writer.printf(ENDPOINT, contextPath + "/vue/index.html", "Vue.js UI");
 			writer.printf(ENDPOINT, contextPath + "/swagger/index.html", "Swagger UI");
 			writer.print(ENDPOINT_END);
